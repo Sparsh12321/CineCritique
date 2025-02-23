@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+</head>
+<body>
+   
+    <h3>Username:<%= review.username %></h3>
+    <form action="/posts/<%= id %>/reviews/<%= review.id %>?_method=PATCH" method="POST">
+        <input type="hidden" name="_method" value="PATCH">
+        <textarea name="content"><%= review.content %></textarea>
+        <button type="submit">Update Review</button>
+    </form>
+</body>
+</html>
