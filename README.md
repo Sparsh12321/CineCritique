@@ -50,7 +50,7 @@ Here are some screenshots of the CineCritique application:
     
   
      ```sh
-    cd CineCriti
+    cd CineCritique
      ```
 3. Install the dependencies:
     
